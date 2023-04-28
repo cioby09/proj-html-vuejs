@@ -1,15 +1,18 @@
 <script>
-import Header from "./components/Header.vue"
+import Header from "./components/Header.vue";
+import Jumbotron from "./components/Jumbotron.vue"
 
 export default {
   components: {
-    Header
+    Header,
+    Jumbotron
   }
 }
 </script>
 
 <template>
   <Header />
+  <Jumbotron />
 </template>
 
 <style lang="scss">
