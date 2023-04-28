@@ -1,21 +1,18 @@
 <script>
 import Header from "./components/Header.vue";
-import Jumbotron from "./components/Jumbotron.vue";
-import Cards from "./components/Cards.vue";
+import Main from "./components/Main.vue"
 
 export default {
   components: {
     Header,
-    Jumbotron,
-    Cards
+    Main
   }
 }
 </script>
 
 <template>
   <Header />
-  <Jumbotron />
-  <Cards />
+  <Main />
 </template>
 
 <style lang="scss">
